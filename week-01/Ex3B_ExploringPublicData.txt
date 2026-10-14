@@ -1,0 +1,18 @@
+
+1) Data.gov is the U.S. Government's open data portal. It gives free public access to more than 590,000 datasets from federal, state, city and county organizations, and it also has tools and resources for research, apps and data visualization.
+
+2) The Most Viewed Datasets page lists 20 datasets at a time, and there is a "Show more results" link to see the rest.
+
+3) I couldn't find the Topic Category section. The website seems to have been redesigned, and the topic categories are no longer shown on the home page.
+
+4) Yes, from the Food Price Outlook page I can click the publisher (Department of Agriculture) to see more USDA datasets. Most of them are about food and agriculture.
+
+5) There are too many organizations to count, but I estimate around 115. The biggest ones have around 30,000 datasets (the largest had about 32,300), some metropolitan cities have around 2,700–2,855, and the smallest has only 1. I was surprised that San Francisco has only 679. The distribution is very unbalanced.
+
+6) As expected, searching for city, county and state returns city, county and state organizations.
+
+7) Searching "food composition" within USDA returns about 13 results, while "nutrition" returns about 211. The two terms are related, but different words give very different results. This shows that it is hard to decide which words to use when searching for data.
+
+8a) When I searched for "butter" in FoodData Central, the results included different types of butter (salted, unsalted, whipped) and also branded products. Each result shows its data type, like Foundation, SR Legacy or Branded. When I clicked on a result, I saw a detailed nutrition table with calories, fat, protein, vitamins and minerals, usually per 100 grams.
+
+8b) On the Foundation Foods download page, the data is offered in CSV and JSON formats, with releases going back to 2019. The files are small: the latest CSV is about 3.4 MB zipped (29 MB unzipped), and the JSON is about 467 KB zipped (6.5 MB unzipped). The full download of all data types is much larger (about 458 MB zipped, 3.1 GB unzipped). More information about the data types can be found in the "Documentation" link, and a "Field Descriptions" PDF is included in each download.
