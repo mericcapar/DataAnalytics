@@ -1,0 +1,28 @@
+1.What do you envision yourself doing 5 minutes before class starts each day, to ensure that you are ready to start on time?
+
+Most of the class is already ready and waiting 5 minutes before class starts. They usually get their tea, coffee or water ready, and some also have a snack. Forms only shows a list of text answers, so it's not very helpful; grouping the answers into themes and showing them in a bar chart would be better. There is no "Other" option because this is an open text question. The challenge is that answers are long and written in different ways, so I had to read each one and group them by hand. Some answers are also unclear (one just says "5"), and many people described 15 minutes before class instead of 5. A better version would be a "select all that apply" question with options like join Zoom early, test tech, open materials, review notes, and other.
+
+2.Do you have a second monitor connected to your computer?
+
+More than half of the class does not have a second monitor: 13 No, 10 Yes and 1 Maybe. The form shows "Yes" and "Yes, I have second monitor." as two separate answers, so I combined them. Because the same answer is written in two ways, it is counted in two groups, and "Maybe" is also unclear. I think there should only be "Yes" and "No" options.
+
+
+3.Do you have an external keyboard and mouse?
+
+Most students do not have both: 13 No, 8 Yes, 2 have only a mouse and 1 Maybe. It's the same situation here. Some students typed "External mouse, not keyboard" or "I have a mouse" in Other, so those have to be read and grouped by hand. The question asks about two things at once, which makes it hard to count. This time, the options should be: Only mouse, Only keyboard, Both, or Neither.
+
+4.How do you plan to take notes for this class – in a doc on your computer, with pen and paper, or something else? 
+Pen and paper is the most popular: 10 pen and paper, 8 computer, 5 both and 1 iPad. The same answer appears with different wording ("Both" vs. "A and B"), so the chart is misleading without cleaning. "Both" and "With my iPad" were typed in Other, and "Both" and "A and B" mean the same thing but are counted separately. A "Both" option could be added, or an "Other" option.
+
+5.What is one question that you have right now, about this course generally or about a specific topic we’ll be talking about?
+
+The main themes are which programming languages we will learn, how AI will change the data analyst role, real-world uses and career paths, and course structure like hands-on practice, the capstone and workload. About 5 people had no question. Forms only lists the text answers, so grouping them by theme in a bar chart would help. There is no "Other" option because this is an open text question. Some answers include several questions, and answers like "N/A", "no questions" or blank need to be filtered out. A better version would give topic options with an optional text box.
+
+6) Many students don't have a second monitor or an external keyboard and mouse. Also, several students are worried about how AI will change the data analyst job.
+
+7) From Q1, I like the idea of joining Zoom 10–15 minutes early, testing my tech, and having water or a snack ready. From Q5, I am also curious about which tools besides Excel, SQL and Python we will use, and how AI will be used in data analytics.
+
+8) Many students don't have a second monitor, so as an instructor I would go slower during demos and share tips for working on one screen. Students want practice, real-world datasets, AI tools, and clear information about the capstone and workload. Since many take notes on paper, sharing slides after class would help.
+
+9) 9 out of 24 students chose to be anonymous. The pro is that students may answer more honestly and ask questions they feel shy about, like workload or not having a monitor. The con is that the instructor can't follow up with a specific student or help someone who needs equipment.
+
