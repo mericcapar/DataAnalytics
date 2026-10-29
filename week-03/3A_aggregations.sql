@@ -49,3 +49,30 @@ SELECT s.SupplierID, s.CompanyName, COUNT(p.ProductID) AS ItemCount
 FROM suppliers s
 JOIN products p ON s.SupplierID = p.SupplierID
 GROUP BY s.SupplierID, s.CompanyName;
+
+-- 7.Write a query to find the list of all category names and the average price for items in
+-- each category
+
+SELECT c.CategoryName, ROUND(AVG(p.UnitPrice),2) AS AveragePrice
+FROM categories c
+JOIN products p ON c.CategoryID = p.CategoryID
+GROUP BY c.CategoryName;
+
+-- 8.Write a query to find, for all suppliers that provide at least 5 items to Northwind, what
+-- is the name of each supplier and the number of items they supply
+
+SELECT s.CompanyName, COUNT(p.ProductID) AS ItemCount
+FROM suppliers s
+JOIN products p ON s.SupplierID = p.SupplierID
+GROUP BY s.supplierID, s.CompanyName
+HAVING COUNT(p.productID) >=5;
+
+-- 9. Write a query to list products currently in inventory by the product id, product name,
+-- and inventory value (calculated by multiplying unit price by the number of units on
+-- hand). Sort the results in descending order by value. If two or more have the same
+-- value, order by product name. If a product is not in stock, leave it off the list.
+
+SELECT ProductID, ProductName, (UnitPrice * UnitsInStock) AS InventoryValue
+FROM products
+WHERE UnitsInStock > 0
+ORDER BY InventoryValue DESC, ProductName;
