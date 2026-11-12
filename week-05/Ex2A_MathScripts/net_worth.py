@@ -14,3 +14,4 @@ total_debts = credit_card_debt + car_repairs
 print("Your total assets are " + str(total_assets))
 print("Your total debts are " + str(total_debts))
 print("Your net worth is " + str(total_assets - total_debts))
+
