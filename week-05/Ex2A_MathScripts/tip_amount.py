@@ -14,3 +14,4 @@ print(f"The tip on a ${bill:.2f} restaurant bill is ${tip:.2f}")
 #    "$50", float() raises a ValueError and the program crashes.
 # 3. The user may type the tip as 0.20 instead of 20, which would give
 #    a much smaller tip than expected.
+
