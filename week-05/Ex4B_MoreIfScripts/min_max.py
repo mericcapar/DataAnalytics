@@ -8,7 +8,6 @@ if a == b and a == c:
     smallest = a
     biggest = a
 
-
 if a < b and a < c:
     smallest = a
 elif b < a and b < c:
