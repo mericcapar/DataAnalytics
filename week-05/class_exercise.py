@@ -41,3 +41,13 @@ print(f"{'Tip (20%):':<15}${tip:>6.2f}")
 print(f"{'Tax (8.25%):':<15}${tax:>6.2f}")
 print('--------------------------------')
 print(f"{'Total Cost:':<15}${total_cost:>6.2f}")
+
+#Exercise 5
+name = input("Enter your name: ")
+number_1 = float(input("Enter the first number: "))
+number_2 = float(input("Enter the second number: "))
+number_3 = float(input("Enter the third number: "))
+
+average = (number_1 + number_2 + number_3) / 3
+
+print(f"Hello {name} ! The average of {number_1}, {number_2}, and {number_3} is {average:.2f}.")
