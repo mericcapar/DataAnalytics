@@ -1,0 +1,16 @@
+sales_data = [
+    ('Marcus Webb', 'East', 4250.00),
+    ('Priya Sharma', 'West', 5875.50),
+    ('DeShawn Carter', 'East', 3100.75),
+    ('LaTonya Rivers', 'South', 6420.00),
+    ('Bob Nguyen', 'West', 4980.25),
+]
+total_sales = 0
+
+for name,region,sales in sales_data:
+    total_sales += sales
+    print(f"{name} from the {region} region made ${sales} in sales")
+    if sales > 5000:
+        print('^ Top performer ^')
+
+print(f"Total sales for the week: ${total_sales}")

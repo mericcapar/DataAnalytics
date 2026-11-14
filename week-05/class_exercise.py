@@ -63,11 +63,40 @@ total_sales = 0
 average_sales = 0
 i = 0
 
-while i < 5:
-    total_sales = monday + tuesday + wednesday + thursday + friday
-    average_sales = total_sales / 5
-    i += 1
-print(f"Total sales for the week: ${total_sales:.2f}")
-print(f"Average sales for the week: ${average_sales:.2f}")
+# while i < 5:
+#     total_sales = monday + tuesday + wednesday + thursday + friday
+#     average_sales = total_sales / 5
+#     i += 1
+# print(f"Total sales for the week: ${total_sales:.2f}")
+# print(f"Average sales for the week: ${average_sales:.2f}")
 
+# for i in range(5):
+#     if day == 1:
+#         total_sales += monday
+#     elif day == 2:
+#         total_sales += tuesday
+#     elif day == 3:
+#         total_sales += wednesday
+#     elif day == 4:
+#         total_sales += thursday
+#     else:
+#         total_sales += friday
+#     day += 1  
+# average_sales = total_sales / 5
 
+# print(f"Total Sales: ${total_sales:,.2f}")
+# print(f"Average Daily Sales: ${average_sales:,.2f}")
+
+monthly_sales = [125000.50, 14200.75, 11800.25, 15600.00, 16250.50, 17500.80]
+months = ['January', 'February', 'March', 'April', 'May', 'June']
+
+#Task 2
+
+for number, month in enumerate(months, start=1):
+    print(f"Month {number}: {month}")
+
+print('-----------------------------')
+#Task 3
+#  
+for number, sales in enumerate(monthly_sales, start=1):
+    print(f"Month {number}: ${sales:,.2f}")
