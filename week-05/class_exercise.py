@@ -100,3 +100,5 @@ print('-----------------------------')
 #  
 for number, sales in enumerate(monthly_sales, start=1):
     print(f"Month {number}: ${sales:,.2f}")
+
+    
